@@ -11,16 +11,33 @@ The staging area allows you to group a logical change so that it makes one commi
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+You can check and make sure you want to commit the files you updated not the ones that you don't want to.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+In adding new features or fixing bugs. They allow multiple people to make edits to the code without affecting the master.
+
 How do the diagrams help you visualize the branch structure?
 
+They allow you to map out the branches and show which commits are part of which branches.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+It creates one branch and places all of the commits that were in the two branches in the new branch.
+
+What are the pros and cons of Gits automatic merging vs. always doing merges
 manually?
 
+Pro: you do not have to look through file for the changes
+Cons: you cannot tell how to resolve when to lines in the code are the same in two different branches.
+
+
+
+git branch
+git branch checkout
+git commit
+git add
+git merge master coins
+git show - shows diff between commit and its parent
+git branch -d coins: deletes branch title
